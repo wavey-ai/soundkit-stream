@@ -1,0 +1,11 @@
+[package]
+name = "soundkit-stream"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "SoundKit v2 frame stream and sidecar index utilities."
+repository = "https://github.com/wavey-ai/soundkit-stream"
+
+[dependencies]
+frame-header = { path = "../../../frame-header" }
+libopus-rs = { path = "../../../libopus-rs" }
