@@ -10,5 +10,5 @@ repository = "https://github.com/wavey-ai/soundkit-stream"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-soundkit-stream = { path = "../soundkit-stream" }
+soundkit-stream = { version = "0.1.0", path = "../soundkit-stream" }
 wasm-bindgen = "0.2"

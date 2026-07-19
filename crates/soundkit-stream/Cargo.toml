@@ -7,5 +7,5 @@ description = "SoundKit v2 frame stream and sidecar index utilities."
 repository = "https://github.com/wavey-ai/soundkit-stream"
 
 [dependencies]
-frame-header = { path = "../../../frame-header" }
-libopus-rs = { path = "../../../libopus-rs" }
+frame-header = { version = "0.2.1", path = "../../../frame-header" }
+libopus-rs = { version = "0.0.2", path = "../../../libopus-rs" }
