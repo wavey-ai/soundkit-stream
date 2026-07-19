@@ -9,6 +9,7 @@
     "test": "npm run test:js && npm run test:rust"
   },
   "workspaces": [
-    "packages/soundkit-stream-js"
+    "packages/soundkit-stream-js",
+    "workers/*"
   ]
 }

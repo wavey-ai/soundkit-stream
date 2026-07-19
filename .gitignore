@@ -4,4 +4,5 @@ dist/
 pkg/
 *.log
 .DS_Store
-
+.wrangler-home/
+workers/*/build/

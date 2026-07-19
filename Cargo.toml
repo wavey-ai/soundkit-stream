@@ -3,5 +3,5 @@ resolver = "2"
 members = [
   "crates/soundkit-stream",
   "crates/soundkit-stream-wasm",
+  "workers/soundkit-store",
 ]
-
