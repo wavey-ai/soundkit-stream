@@ -93,7 +93,7 @@ const result = await transcodeSourceToSoundKitOpusStreamWithWasm({
 ```
 
 The current transcode helper expects the decoder to emit 48 kHz 16-bit PCM.
-Bitneedle already has this normalization step; moving that resampler into this
+Bitneedle already has this normalization step. Moving that resampler into this
 repo is the next extraction step.
 
 ## Development

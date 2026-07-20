@@ -66,9 +66,9 @@ objects/{objectId}/manifest.json
 ```
 
 The Worker does not compact chunks into one contiguous `stream.soundkit` object
-yet. For finalized high-scale delivery, add an async compaction job that reads
-committed chunks and writes the sealed stream object, then serve that object
-directly through Cloudflare cache.
+yet. For high-scale delivery, add an asynchronous compaction job. The job must
+read committed chunks and write the sealed stream object. Then, serve that
+object directly through Cloudflare cache.
 
 ## Development
 
